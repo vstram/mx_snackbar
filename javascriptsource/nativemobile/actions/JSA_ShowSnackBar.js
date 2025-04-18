@@ -21,6 +21,7 @@ export async function JSA_ShowSnackBar(message) {
 	Snackbar.show({
 		text: message,
 		duration: Snackbar.LENGTH_SHORT,
+		marginBottom: 50,
 	});
 	// END USER CODE
 }
